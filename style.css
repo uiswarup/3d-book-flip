@@ -1,0 +1,205 @@
+body{ margin:0px; padding:0px;font-family: 'Roboto', sans-serif; font-size:16px; color:#3a3a3a}
+a:focus {outline: 0;}
+strong{ font-weight:600}
+a[href^=tel] {color : inherit;text-decoration: none;}
+img{ max-width:100%; height:auto;  border:none}
+hr{ background:none; border:none; border-top:solid 1px #cccccc; padding:0px 0 30px; margin:20px 0 0px; float:left; width:100%;}
+a, button{transition: all 0.25s ease-in 0s;-webkit-transition: all 0.25s ease-in 0s;-moz-transition: all 0.25s ease-in 0s;-o-transition: all 0.25s ease-in 0s;}
+a{ color:#0099ff}
+a:hover{ color:#000;}
+
+h1{ font-size:40px;}
+
+h1, h2, h3, h4, h5, h6{font-family: 'VAGRounded BT'; }
+h5{ padding:0; margin:0 0 5px}
+header{ background:#b02123;}
+
+
+@font-face {
+    font-family: 'VAGRounded BT';
+    src: url('../fonts/VAGRoundedBT-Regular.eot');
+    src: url('../fonts/VAGRoundedBT-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VAGRoundedBT-Regular.woff2') format('woff2'),
+        url('../fonts/VAGRoundedBT-Regular.woff') format('woff'),
+        url('../fonts/VAGRoundedBT-Regular.ttf') format('truetype'),
+        url('../fonts/VAGRoundedBT-Regular.svg#VAGRoundedBT-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.btn:active, .btn.active{ box-shadow:none}
+.logo{ padding:10px 0; display:table}
+.logo a{ display:table-cell;}
+.logo img{ padding-left:15px;}
+.right-logo{ text-align:right; margin:10px 0 0;}
+
+.navbar{ min-height:inherit; border:none; background:#243a7a; float:none; display:block; border-radius:0;}
+.navbar ul{ margin:0; padding:0}
+.navbar li{ list-style:none; float:left; margin:20px 0; padding:0 10px}
+.navbar li a{ color:#fff; font-size:18px; text-transform:uppercase; font-weight:normal; padding:0px 10px; display:block; line-height:15px; }
+.navbar li.active a{ color:#89a3ef}
+
+.navbar-collapse{ padding:0px;}
+.navbar-nav > li > a:hover, .navbar-nav > li.active a{ background:none;}
+.navbar{ margin-bottom:0}
+.nav-right{ float:right;}
+.nav-right li{border-right:solid 1px #fff;}
+.nav-right li a{ text-decoration:none}
+.nav-right li:last-child{ border:none}
+
+.home-slider{ background:url(../images/slider01.jpg) center top no-repeat; background-size:cover; padding:60px 0; min-height:295px;}
+.banner-caption{ max-width:700px; margin:auto; color:#fff; text-align:center}
+.banner-caption h2{font-family: 'VAGRounded BT'; margin-bottom:25px;}
+.banner-caption span{ font-size:22px; font-weight:600}
+
+.booking-form{ margin:0px; padding:25px 0 50px;}
+.booking-form h2, .special-section h2, .featured-section h2{ color:#243a7a; font-size:30px; text-align:center; text-transform:uppercase; margin-bottom:35px; position:relative}
+.booking-form h2 span, .special-section h2 span, .featured-section h2 span{ display:block; position:relative; max-width:380px; margin:20px auto}
+.booking-form h2 span:before, .special-section h2 span:before, .featured-section h2 span:before{ content:''; height:1px; width:140px; background:#e2e2e2; position:absolute; left:0; top:18px;}
+.booking-form h2 span:after, .special-section h2 span:after, .featured-section h2 span:after{ content:''; height:1px; width:140px; background:#e2e2e2; position:absolute; right:0; top:18px;}
+
+.booking-form-inner{ background:#f4f4f4; border:solid 1px #d9d9d9; padding:30px;}
+.booking-form-inner small{color:#243a7a; text-align:center; font-size:13px; display:block; padding:10px 0 0;}
+.booking-form-inner label{ font-size:16px; color:#243a7a; font-weight:300; display:block;}
+.booking-form-inner input[type="text"], .booking-form-inner select{ border:solid 1px #d9d9d9; background:#fff; font-size:14px; padding:8px; width:100%; box-sizing:border-box}
+.booking-form-inner button{ background:#243a7a; display:block; border:none; width:100%; color:#fff; padding:7px;}
+.booking-form-inner button:hover{ background:#b02123}
+
+
+.select-style {border:solid 1px #d9d9d9; background:#fff;overflow: hidden;background: #fff url("../images/select-arrow.jpg") no-repeat 100% 50%;
+}
+select::-ms-expand {display: none;}
+.select-style select {padding:8px;width: 100%;border: none;box-shadow: none;background: transparent;background-image: none;-webkit-appearance: none;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+.select-style select:focus {outline: none;}
+
+input.input-date{ background:#fff url(../images/icon-calendar.png) 98% 5px no-repeat; border-radius:0}
+
+.form-checkbox{ margin:8px 0 0;}
+.form-checkbox span{ margin:0 25px 0 3px; display:inline-block;font-size:16px; color:#243a7a; font-weight:300; vertical-align:top}
+
+.passenger01 select, .passenger02 select{ background:url(../images/icon-passenger.png) 5px 7px no-repeat; padding-left:25px}
+.passenger03 select{ background:url(../images/icon-child.png) 5px 7px no-repeat; padding-left:25px}
+
+.special-section{ background:url(../images/special-bg.jpg); padding:30px 0 50px;}
+.special-section h3{ background:rgba(0,0,0,0.5); display:block; font-size:20px; color:#fff; padding:15px; position:absolute; bottom:0; left:0; right:0; margin:0;}
+
+.special-box {
+	position: relative;
+	display:block;
+	overflow:hidden
+}
+.special-box::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.special-box:hover::before {
+	-webkit-animation: shine 1.75s;
+	animation: shine 1.75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+.featured-section{ padding:30px 0 50px;}
+.featured-section h3{display:block; font-size:20px; color:#000; padding:15px 0;margin:0;}
+.featured-box{ font-size:14px; color:#666666}
+.featured-box a{ color:#243a7a;font-family: 'VAGRounded BT';}
+.virgin-logo{ position:absolute; right:0; top:0}
+
+footer{background:#353535;color:#fff; padding:20px 0; position:relative; font-size:14px;}
+
+.subscribe-box{ padding:0px; max-width:490px; float:right}
+.subscribe-box input{ background:#686868; margin-bottom:5px; border:none; width:100%; padding:7px; font-size:12px; color:#fff}
+.subscribe-box textarea{ background:#686868; margin-bottom:0px; border:none; width:100%; padding:7px; font-size:12px; color:#fff}
+.subscribe-box form{ margin:10px 0 0;}
+.subscribe-box label{display:table-cell; font-weight:normal; padding-right:15px; width:80px;}
+.subscribe-box button{ background:#000000; border:none; padding:7px 45px; margin:5px 0 0;text-transform:uppercase; font-size:14px; width:100%;}
+.subscribe-box button:hover{ background:#b02123}
+
+.contact-form{ padding-left:0px;}
+.contact-form input, .contact-form textarea{border:solid 1px #d9d9d9; background:#fff; font-size:14px; padding:8px; width:100%; box-sizing:border-box}
+.contact-form button{ background:#243a7a; color:#fff; padding:10px 25px; border:none;}
+.contact-form button:hover{background:#b02123}
+
+.stars{ padding:0 0 15px 0; font-size:25px;}
+.stars i{ margin-right:10px;}
+
+ul{ margin:0px; padding:0px 0 0 20px;}
+ul li{ margin-bottom:10px;}
+.about-right{ margin:0; padding:0 0 0 25px;}
+.about-right h3{ margin:0; padding:0 0 15px}
+
+.testi-section{ background:#f4f4f4;}
+
+.testi-box{ background:#fff; padding:15px;}
+.testi-box small{ display:block; padding:10px 0 0; color:#000}
+
+.popup-form{ margin:0; padding:0}
+.popup-form input{border:solid 1px #d9d9d9; background:#fff; color:#ccc; font-size:13px; padding:8px; width:100%; box-sizing:border-box}
+.popup-form label{ font-size:16px; color:#243a7a; font-weight:300; display:block;}
+
+.popup-form button{ background:#243a7a; display:block; border:none; color:#fff; padding:7px 25px;}
+.popup-form button:hover{ background:#b02123}
+.popup-form a{  font-size:14px;}
+.modal-footer{ text-align:center; font-size:14px;}
+
+.nav-tabs{ border-bottom:none;}
+.nav-tabs > li{ width:50%; border-radius:0px;}
+.nav-tabs > li a{ color:#666; display:block; text-align:center; border-radius:0px;}
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus, .nav-tabs li.active a, .nav-tabs li.active a:focus { background:#f4f4f4}
+.tab-content iframe{ border:none}
+
+.field-validation-error {
+    font-size: 11px;
+    color: red;
+    float:left;
+}
+
+/*------------ Legend CSS--------Start--------*/
+.my-legend .legend-title {
+          text-align: left;
+          margin-bottom: 5px;
+          font-weight: bold;
+          font-size: 90%;
+          }
+        .my-legend .legend-scale ul {
+          margin: 0;
+          margin-bottom: 5px;
+          padding: 0;
+          float: left;
+          list-style: none;
+          }
+        .my-legend .legend-scale ul li {
+          font-size: 80%;
+          list-style: none;
+          margin-left: 0;
+          line-height: 18px;
+          margin-bottom: 2px;
+          }
+        .my-legend ul.legend-labels li span {
+          display: block;
+          float: left;
+          height: 16px;
+          width: 30px;
+          margin-right: 5px;
+          margin-left: 0;
+          border: 1px solid #999;
+          }
+/*------------ Legend CSS--------End--------*/

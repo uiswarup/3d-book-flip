@@ -1,0 +1,495 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Mainstreet USA</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="Mainstreet USA" name="keywords">
+
+    <link href="css/jquery-ui.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
+
+    <script src="/Scripts/jquery-1.10.2.js"></script>
+<script src="/Scripts/jquery-ui.min.js"></script>
+<script src="/Content/Home/js/bootstrap.min.js"></script>
+<script src="/Content/Admin/js/customAdmin.js"></script>
+
+    <script src="/Scripts/jquery.validate.js"></script>
+<script src="/Scripts/jquery.validate.unobtrusive.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css" />
+		<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-30 col-md-30 col-sm-35 col-xs-50">
+                        <div class="logo"> <a href="#"><img src="images/logo.gif" alt=""></a> </div>
+                    </div>
+                    <div class="col-lg-70 col-md-70 col-sm-65 right-logo col-xs-50"> <img src="images/right-logo.jpg"> </div>
+                </div>
+            </div>
+        </header>
+
+        
+
+
+<style>
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 300px;
+        border-radius: 5px;
+        float: left;
+        padding: 20px;
+        margin: 15px;
+        background-color:ghostwhite;
+    }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+
+    .contain {
+        padding: 2px 16px;
+    }
+</style>
+<nav class="navbar ">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li><a href="/">Booking</a></li>
+                <li><a href="/Home/AboutUs">About Us</a></li>
+                <li><a href="/Home/Contact">Contact Us</a></li>
+                <li><a href="/Home/TnC">Terms & Conditions</a></li>
+            </ul>
+            <ul class="nav-right"></ul>
+        </div>
+    </div>
+    <!-- /.navbar-collapse -->
+</nav>
+<div class="special-section">
+    <h2>Destination List</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-100 col-md-100">
+                <div class="main">
+                    <ul id="bk-list" class="bk-list clearfix">
+                        <li>
+                            <div class="bk-book book-1">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                        <h2>
+                                            <span>Anthony Burghiss</span>
+                                            <span>2020</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content bk-content-current">
+                                       
+                                        <div style="height: 400px;overflow: auto;" class="contain text-dec">
+                                            <span class="heading-text"> Offer Index </span>
+                                            <br>
+                                            <br>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" > <a style="cursor:pointer" onclick="goToPage(event, 23)">AMERICAN HERITAGE £2570 </a>
+                                                </p>
+                                                <p>
+                                                   <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" ><a style="cursor:pointer" onclick="goToPage(event, 24)">Southern Heritage</a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 25)">Viva Las Vegas  £899</a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 26)">New York, Chicago and San Fran</a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 28)">NASHVILLE – MIAMI – NEW ORLEANS </a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 30)">New York &amp; Cancun</a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 32)">Cancun &amp; New York August 2021 From £999pp</a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 33)">Cancun &amp; New York August 2021  Heathrow From £1049pp</a>
+                                                </p>
+                                                <p>
+                                                    <img src="images/right-arrow.svg" class="imgarrow" alt="Mainstreet USA" >  <a style="cursor:pointer" onclick="goToPage(event, 35)">August Dublin &amp; NYC From £619pp</a>
+                                                </p>
+                                        </div>
+                                    </div>
+                                    <div class="bk-content">
+                                        <div id="22" class="bk-content bk-content-current">
+                                            <div style="height: 400px;overflow: auto;" class="contain">
+                                                <h4 class="heading-text"><b>Luxury 5*  Thai Beach and Treehouse Retreat from £1459</b></h4>
+                                                <p>
+                                                    <a class="button-design" href="/Home/OfferBooking/22">
+                                                        Book Now
+                                                    </a>
+                                                </p>
+                                                <p> (Thailand)</p>
+                                                <br><p>
+                                                    <b>Flights from:</b> All Qatar UK Departure Points (ALlQuat)
+                                                </p><p>
+                                                    <b>Departure Days:</b>  &lt;p&gt; 1 June 2021&lt;/p&gt;
+                                                </p><p>
+                                                    <b>Number of nights:</b> 8
+                                                </p><br><p>
+                                                    <b>Details:</b> <br>2 Adults  for just £1459
+                                                </p><br><p>
+                                                    <b>Overview:</b> </p><p>5 Nights- Dusit Thani Laguna-Phuket- B&amp;B</p><p>3 Nights- Adults Only Treehouse Villas Koh Yao- B&amp;B</p><p>Based on 2 Adults Sharing</p><p>&nbsp;</p><p>Deposit-£75pp</p>
+                                                <p></p>
+                                                <p>
+                                                    <a class="button-design" href="/Home/OfferBooking/22">
+                                                        Book Now
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                            
+                            </div>
+                                <div class="bk-back">
+                                    <p>In this nightmare vision of cats in revolt, fifteen-year-old Alex and his friends set out on a diabolical orgy of robbery, rape, torture and murder. Alex is jailed for his teenage delinquency and the State tries to reform him - but at what cost?</p>
+                                </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left">
+                                    <h2>
+                                        <span>Anthony Burghiss</span>
+                                        <span>2020</span>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bk-book book-2">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                        <h2>
+                                            <span>Anthony Burghiss</span>
+                                            <span>2020</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content">
+                                        <p>Whale catfish leatherjacket deep sea anglerfish grenadier sawfish pompano dolphinfish carp large-eye bream, squeaker amago. Sandroller; rough scad, tiger shovelnose catfish snubnose parasitic eel? Black bass soldierfish duckbill--Rattail Atlantic saury Blind shark California halibut; false trevally warty angler!</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                                    <div class="bk-content bk-content-current">
+                                        <p>Red snapper Kafue pike fangtooth humums's slipmouth, salmon cutlassfish; swallower European perch mola mola sunfish, threadfin bream. Billfish hog sucker trout-perch lenok orbicular velvetfish. Delta smelt striped bass, medusafish dragon goby starry flounder cuchia round whitefish northern anchovy spadefish merluccid hake cat shark Black pickerel. Pacific cod.</p>
+                                    </div>
+                             
+                            
+                            </div>
+                                <div class="bk-back">
+                                    <p>Tyrant, blackmailer, racketeer, murderer - his influence reaches every level of American society. Meet Cat Corleone, a friendly cat, a just cat, a reasonable cat. The deadliest lord of the Cata Nostra. The Catfather.</p>
+                                </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left">
+                                    <h2>
+                                        <p>The Catfather 2020</p>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bk-book book-3">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                        <h2>
+                                            <span>Anthony Burghiss</span>
+                                            <span>2020</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content bk-content-current">
+                                        <p>Oceanic flyingfish spotted danio fingerfish leaffish, Billfish halibut Atlantic cod threadsail poacher slender mola. Swallower muskellunge, turbot needlefish yellow perch trout dhufish dwarf gourami false moray southern smelt cod dwarf gourami. Betta blue catfish bottlenose electric ray sablefish.</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Whale catfish leatherjacket deep sea anglerfish grenadier sawfish pompano dolphinfish carp large-eye bream, squeaker amago. Sandroller; rough scad, tiger shovelnose catfish snubnose parasitic eel? Black bass soldierfish duckbill--Rattail Atlantic saury Blind shark California halibut; false trevally warty angler!</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                            </div>
+                                <div class="bk-back">
+                                    <img src="images/3.png" alt="cat">
+                                     </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left">
+                                    <h2>
+                                        <p>J.C. Salinger 2020</p>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bk-book book-1">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                        <h2>
+                                            <span>Anthony Burghiss</span>
+                                            <span>2020</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content bk-content-current">
+                                        <p>Red snapper Kafue pike fangtooth humums slipmouth, salmon cutlassfish; swallower European perch mola mola sunfish, threadfin bream. Billfish hog sucker trout-perch lenok orbicular velvetfish. Delta smelt striped bass, medusafish dragon goby starry flounder cuchia round whitefish northern anchovy spadefish merluccid hake cat shark Black pickerel. Pacific cod.</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Whale catfish leatherjacket deep sea anglerfish grenadier sawfish pompano dolphinfish carp large-eye bream, squeaker amago. Sandroller; rough scad, tiger shovelnose catfish snubnose parasitic eel? Black bass soldierfish duckbill--Rattail Atlantic saury Blind shark California halibut; false trevally warty angler!</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                                </div>
+                                <div class="bk-back">
+                                    <p>In this nightmare vision of cats in revolt, fifteen-year-old Alex and his friends set out on a diabolical orgy of robbery, rape, torture and murder. Alex is jailed for his teenage delinquency and the State tries to reform him - but at what cost?</p>
+                                </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left left4">
+                                    <h2>
+                                       
+                                        <p>Anthony Burghiss 2020</p>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="bookshelf"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-lg-100 col-md-100">
+                <div class="main">
+                    <ul id="bk-list" class="bk-list clearfix">
+                        <li>
+                            <div class="bk-book book-1">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                        <h2>
+                                            <span>Anthony Burghiss</span>
+                                            <span>2020</span>
+                                        </h2>
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content bk-content-current">
+                                        <p>Swarup Kumar</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Slide 2 </p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                            
+                            </div>
+                                <div class="bk-back">
+                                    <p>In this nightmare vision of cats in revolt, fifteen-year-old Alex and his friends set out on a diabolical orgy of robbery, rape, torture and murder. Alex is jailed for his teenage delinquency and the State tries to reform him - but at what cost?</p>
+                                </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left">
+                                    <h2>
+                                        <span>Anthony Burghiss</span>
+                                        <span>2020</span>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bk-book book-2">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content">
+                                        <p>Whale catfish leatherjacket deep sea anglerfish grenadier sawfish pompano dolphinfish carp large-eye bream, squeaker amago. Sandroller; rough scad, tiger shovelnose catfish snubnose parasitic eel? Black bass soldierfish duckbill--Rattail Atlantic saury Blind shark California halibut; false trevally warty angler!</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                                    <div class="bk-content bk-content-current">
+                                        <p>Red snapper Kafue pike fangtooth humums's slipmouth, salmon cutlassfish; swallower European perch mola mola sunfish, threadfin bream. Billfish hog sucker trout-perch lenok orbicular velvetfish. Delta smelt striped bass, medusafish dragon goby starry flounder cuchia round whitefish northern anchovy spadefish merluccid hake cat shark Black pickerel. Pacific cod.</p>
+                                    </div>
+                             
+                            
+                            </div>
+                                <div class="bk-back">
+                                    <p>Tyrant, blackmailer, racketeer, murderer - his influence reaches every level of American society. Meet Cat Corleone, a friendly cat, a just cat, a reasonable cat. The deadliest lord of the Cata Nostra. The Catfather.</p>
+                                </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left">
+                                    <h2>
+                                        <p>The Catfather 2020</p>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bk-book book-3">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                        <!-- <h2>
+                                            <span>J.C. Salinger</span>
+                                            <span>The Catcher in the Rye</span>
+                                        </h2> -->
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content bk-content-current">
+                                        <p>Oceanic flyingfish spotted danio fingerfish leaffish, Billfish halibut Atlantic cod threadsail poacher slender mola. Swallower muskellunge, turbot needlefish yellow perch trout dhufish dwarf gourami false moray southern smelt cod dwarf gourami. Betta blue catfish bottlenose electric ray sablefish.</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Whale catfish leatherjacket deep sea anglerfish grenadier sawfish pompano dolphinfish carp large-eye bream, squeaker amago. Sandroller; rough scad, tiger shovelnose catfish snubnose parasitic eel? Black bass soldierfish duckbill--Rattail Atlantic saury Blind shark California halibut; false trevally warty angler!</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                            </div>
+                                <div class="bk-back">
+                                    <img src="images/3.png" alt="cat">
+                                     </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left">
+                                    <h2>
+                                        <p>J.C. Salinger 2020</p>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="bk-book book-1">
+                                <div class="bk-front">
+                                    <div class="bk-cover-back"></div>
+                                    <div class="bk-cover">
+                                       
+                                    </div>
+                                </div>
+                                <div class="bk-page">
+                                    <div class="bk-content bk-content-current">
+                                        <p>Red snapper Kafue pike fangtooth humums slipmouth, salmon cutlassfish; swallower European perch mola mola sunfish, threadfin bream. Billfish hog sucker trout-perch lenok orbicular velvetfish. Delta smelt striped bass, medusafish dragon goby starry flounder cuchia round whitefish northern anchovy spadefish merluccid hake cat shark Black pickerel. Pacific cod.</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Whale catfish leatherjacket deep sea anglerfish grenadier sawfish pompano dolphinfish carp large-eye bream, squeaker amago. Sandroller; rough scad, tiger shovelnose catfish snubnose parasitic eel? Black bass soldierfish duckbill--Rattail Atlantic saury Blind shark California halibut; false trevally warty angler!</p>
+                                    </div>
+                                    <div class="bk-content">
+                                        <p>Trahira giant wels cutlassfish snapper koi blackchin mummichog mustard eel rock bass whiff murray cod. Bigmouth buffalo ling cod giant wels, sauger pink salmon. Clingfish luderick treefish flatfish Cherubfish oldwife Indian mul gizzard shad hagfish zebra danio. Butterfly ray lizardfish ponyfish muskellunge Long-finned sand diver mullet swordfish limia ghost carp filefish.</p>
+                                    </div>
+                               </div>
+                                <div class="bk-back">
+                                    <p>In this nightmare vision of cats in revolt, fifteen-year-old Alex and his friends set out on a diabolical orgy of robbery, rape, torture and murder. Alex is jailed for his teenage delinquency and the State tries to reform him - but at what cost?</p>
+                                </div>
+                                <div class="bk-right"></div>
+                                <div class="bk-left left4">
+                                    <h2>
+                                       
+                                        <p>Anthony Burghiss 2020</p>
+                                    </h2>
+                                </div>
+                                <div class="bk-top"></div>
+                                <div class="bk-bottom"></div>
+                            </div>
+                        </li>
+                        
+                    </ul>
+                    <div class="bookshelf"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-50 col-sm-50">
+                        <p>
+                            St Cuthberts House, Framwellgate Peth<br>
+                            Durham, Durham<br>
+                            Mainstreettravelgroup
+                        </p>
+                        <p> Tel: 0191 384 55 00</p>
+                    </div>
+                    <div class="col-md-50 col-sm-50">
+                        <div class="subscribe-box">
+                            
+                                
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div id="Notification" class="hideThis" title="Notification..">
+    </div>
+    <script src="js/jquery.min.js"></script>
+		<script src="js/books2.js"></script>
+		<script>
+			$(function() {
+
+				Books.init();
+
+			});
+		</script>
+</body>
+</html>
